@@ -1,0 +1,35 @@
+	=Mobile Pertemuan 2=
+void main(){
+  
+      var student1 = Student(2018020516, " Gery Sidabutar");
+  print("${student1.id} and ${student1.name}");
+  student1.study();
+  student1.sleep();
+  
+  var student2 = Student(2018171866, "Clarasia"); 
+  print("${student2.id} and ${student2.name}");
+  student2.study();
+  student2.sleep();
+  
+  var student3  = Student.myCustomConstructor();
+  student3.id   = 2018090911;
+  student3.name = "Momoooo";
+  print("${student3.id} and ${student3.name}");
+}
+class Student {
+  int id;
+  String name;
+  Student(int id, String name){
+    this.id = id;
+    this.name = name;
+  }
+  Student.myCustomConstructor(){
+    print("Momo lagi tidur, jangan diganggu");
+  }
+  void study(){
+    print("${this.name} lagi belajar");
+  }
+  void sleep(){
+    print("${this.name} Sedang Tidur");
+  }
+}
