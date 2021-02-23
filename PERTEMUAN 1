@@ -1,0 +1,41 @@
+		"Mobile Pertemuan I"
+void main(){
+  String nama = "Gery Sidabutar";
+  int umur = 21;
+  bool SttMenikah = false;
+  double TinggiBadan =169;
+  var alamat = "gg. jaya, medan johor";
+    
+    print("Nama saya    : $nama");
+    print("umur         : $umur tahun");
+    print("status       : $SttMenikah");
+    print("tinggi badan : $TinggiBadan");
+    print("Alamat       : $alamat");
+}
+
+void main(){
+  print("Operator Aritmatika");
+  double a = 4;
+  print("nilai a = $a");
+  double b = 5;
+  print("nilai b = $b");
+  
+  double hasil;
+  
+  hasil = a + b;
+  print("(penjumlahan)   $a + $b = $hasil");
+  print("(pengurangan)   $a - $b = $hasil");
+}
+
+void main (){
+  print("Program Kasir");
+    double tbelanja = 50000;
+  
+  print("total belanja = $tbelanja");
+  
+  if( tbelanja >=100000){
+    print("Selamat Anda Mendapat Bonus");
+  } 
+  else 
+  print("tidak ada bonus");  
+}
